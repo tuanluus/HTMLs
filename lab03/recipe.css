@@ -1,0 +1,53 @@
+head{
+    text-transform: capitalize;
+}
+body{
+    margin: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background: papayawhip;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: left;
+
+}
+
+
+h1{
+    text-transform: capitalize; 
+}
+h2{
+    text-transform: capitalize; 
+}
+
+.pancake{
+    color: lightcoral;
+}
+
+.img-recipe{
+
+    width: 10%;
+    height: 10%;
+    background-size: 100%;
+    margin-left: 400px;
+    margin-top: -200px;
+    box-shadow: 10px 5px 5px black;
+
+}
+p{
+    color:aquamarine;
+    text-align-last: auto;
+
+}
+.img-pancake{
+    margin-top: -200px;
+    width: 30%;
+    height: 40%;
+    content: url("images/pancake.jpg");
+    float: right;
+    border-radius: 25px;
+    padding: 20px;
+    
+
+}
