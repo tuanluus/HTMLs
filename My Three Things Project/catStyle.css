@@ -1,0 +1,85 @@
+.images {
+  width: 78%;
+  padding: 20px;
+  margin: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.box{
+  width: 250px;
+  margin: 0 15px;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+  transition: 1s;
+}
+
+.box img{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+.box:hover{
+  transform:scale(1.2);
+  z-index: 2;
+}
+
+body{
+  background-color: thistle;
+  font-family:'Courier New', Courier, monospace;
+  margin-top: 15px;
+}
+#wrapper{
+  background-color: rgb(140, 210, 231);
+  margin:auto;
+  width: 75%;
+  min-width: 1080px;
+  max-width: 1920px;
+}
+header{
+  background-color: silver;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  font-family: cursive; 
+  border-bottom:1px dashed thistle;
+
+}
+h1{
+  font-size: 4em;
+  letter-spacing: .2em;
+  font-weight: normal;
+  
+}
+h2{
+  color: lightcoral;
+}
+nav{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:azure;
+  border-bottom: 1px solid thistle;
+}
+a{
+  color:#056563
+}
+a:hover{
+  color:#10CAD0;
+
+}
+main{
+  padding: 2em;
+  background-color: aliceblue;
+}
+
+footer{
+  background-color: slateblue;
+  font-size: small;
+  text-align: center;
+  padding: 1em;
+  border-top: 2px solid thistle;
+  color: white;
+}
